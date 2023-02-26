@@ -1,0 +1,52 @@
+# Documentation for the chatbot
+
+## Business Understanding
+* The chatbot is designed to help users to easily deal with their mental health issues especially 
+depression and anxiety and the country is Kenya.
+* The chatbot however can be used by anyone in the world and it is not meant to subtitute a professional
+therapist. The chatbot is meant to be used as a tool to help users to deal with their mental health issues
+and to help them to get professional help.  It is also meant to help users to get information about mental
+health issues and to help them identify if they have a mental health issue and the nearest mental health
+facility to them.
+
+## Data Understanding
+* The data used for this project is from the [Kaggle Mental Health in Tech Survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey)
+* The data was collected from 2014 to 2016 and it contains 1259 rows and 27 columns.
+* The data contains information about the mental health of tech workers in the USA originally but for the sake of this project,the 
+
+## Data Preparation
+* The data was cleaned and prepared for analysis. The data was cleaned by removing the columns that were
+not needed for the analysis and the rows that had missing values. The data was also prepared for analysis
+by creating new columns that were needed for the analysis ie feature engineering. The data was also
+prepared for analysis by encoding the categorical variables. The data was also prepared for analysis by
+scaling the numerical variables.
+
+## Modelling
+* The data was split into train and test sets but since it is a chatbot, the data was not split into train
+and test sets. The data was split into train and test sets to test the performance of the model. The data
+was split into train and test sets using the train_test_split function from the sklearn.model_selection
+library. The data was split into train and test sets with a test size of 0.2 and a random state of 42.
+* The data was then trained using the Random Forest Classifier algorithm. The data was trained using the
+a deep learning neural network algorithm from the Tensorflow library.
+
+## Evaluation
+* The model was evaluated using the accuracy score and loss. The model was evaluated using the accuracy score
+from the sklearn.metrics library. The model was evaluated using the accuracy score with a random state
+of 42. The loss was also evaluated using the loss function where closer to 0 is better.
+
+
+## Deployment
+* The chatbot was deployed using the Flask framework from the flask library. The chatbot was deployed using the Flask framework among other libraries like
+pickle, numpy, pandas, sklearn, nltk, re, json, random, string, warnings, os, sys, time, datetime,
+threading, flask, flask_cors, flask_restful, flask_restful_swagger_2, flask_sqlalchemy etc. For scalability, the project will be deployed on Streamlit cloud or better 
+still on AWS or Azure.
+
+## Future Work
+* The chatbot can be improved by adding more features to it such as a feature that will help users to 
+get professional help. There can also be a feature that will help users to get information about mental
+health issues and to help them identify if they have a mental health issue and the nearest mental health
+facility to them.
+
+## Acknowledgements
+* I would like to thank the OSMI Mental Health in Tech Survey team for providing the data for this project.
+* I would also like to thank the Kaggle community for providing the data for this project.

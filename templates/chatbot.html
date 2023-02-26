@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+  </head>
+  <body>
+    <h1>Chatbot</h1>
+    <p>Hi, I'm a chatbot. Ask me a question!</p>
+    <form action="/chat" method="POST">
+      <input type="text" name="user_input" />
+      <input type="submit" value="Submit" />
+    </form>
+    <p>Here's what you said: {{ user_input }}</p>
+  </body>
+</html>
