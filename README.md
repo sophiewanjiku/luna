@@ -5,7 +5,7 @@
          * Sudoku Solver
          
 # Sudoku Solver
-* 
+* The sudoku solver is a fun game done in golang. It allows the user try to solve a sudoku puzzle based on the level of their skill whether easy, medium or difficult. In the case of inability to solve the puzzle, the user gets to decide whether or not they would like the program to sove the puzzle through the sudoku solver or if they would like to try again. The game aims at just having fun and relive stress.
 
 
 
